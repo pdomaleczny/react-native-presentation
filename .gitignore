@@ -1,0 +1,17 @@
+# Android
+android/.idea
+android/.gradle
+android/local.properties
+android/app/build
+android/build/
+
+# iOS
+ios/build
+
+# OSX
+.DS_Store
+
+# node.js
+#
+node_modules/
+npm-debug.log

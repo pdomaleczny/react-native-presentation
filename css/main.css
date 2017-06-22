@@ -1,0 +1,163 @@
+body * {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.reveal .header {
+    font-weight: 300;
+    font-size: 1.25em;
+}
+
+.reveal .header--small {
+    font-weight: 300;
+    font-size: 0.75em;
+}
+
+.reveal .header--between {
+    margin: 20px 0 0 0;
+}
+.reveal .header--small {
+    font-weight: 300;
+    font-size: 0.75em;
+}
+
+.reveal p {
+    font-weight: 300;
+    font-size: 0.75em;
+    opacity: 0.7;
+}
+
+.floating-footer {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+}
+
+.floating-footer img {
+    max-width: 100px;
+}
+
+.floating-footer p {
+    font-size: 0.3em;
+    text-align: center;
+    margin: 10px 0 0;
+}
+
+.logo {
+    display: flex;
+    align-items: flex-end;
+}
+
+.logo__item {
+    width: 130px;
+}
+
+.reveal .controls .navigate-right, .reveal .controls .navigate-right.enabled {
+    border-left-color: #2a1b2e;
+}
+
+.reveal .controls .navigate-left, .reveal .controls .navigate-left.enabled {
+    border-right-color: #2a1b2e;
+}
+
+.reveal .controls .navigate-up, .reveal .controls .navigate-up.enabled {
+    border-bottom-color: #2a1b2e;
+}
+
+.reveal .controls .navigate-down, .reveal .controls .navigate-down.enabled {
+    border-top-color: #2a1b2e;
+}
+
+.reveal .progress span {
+    background: #2a1b2e;
+}
+
+.reveal .header__image {
+    display: block;
+    margin: 0 auto;
+    max-width: 150px;
+    border: 0;
+    box-shadow: none;
+}
+
+.reveal .header__image--medium {
+    max-width: 350px;
+}
+
+.reveal .header__image--big {
+    max-width: 600px;
+}
+
+.reveal .header__image--very-big {
+    width: 800px;
+    max-width: none;
+}
+
+.reveal .header__image--logos {
+    height: 60px;
+    width: auto;
+    margin: 0 20px;
+}
+
+.reveal .image--circle {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 15px auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.reveal .image--circle img {
+    margin: 0;
+    border: 0;
+    box-shadow: none;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.reveal .list {
+    margin: 50px 0 0 20px;
+    line-height: 1em;
+}
+
+.reveal .list li {
+    font-size: 0.4em;
+    font-weight: 300;
+}
+
+.reveal section img {
+    margin: 0;
+    border: 0;
+    box-shadow: none;
+}
+
+.reveal .inline-block {
+    display: flex;
+    max-width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.reveal .inline-block--logos {
+    max-width: none;
+}
+
+.inline-block img {
+    width: 40%;
+}
+
+.reveal section img.android {
+    position: relative;
+    top: 10px;
+}
+
+.reveal pre {
+    box-shadow: none;
+}
+
+.reveal .link-small {
+    display: block;
+    font-weight: 300;
+    font-size: 0.4em;
+}
